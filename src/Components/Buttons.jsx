@@ -6,13 +6,12 @@ const CHOICE_PAPER = "CHOICE PAPER";
 const CHOICE_ROCK = "CHOICE ROCK";
 const CHOICE_SCISSORS = "CHOICE SCISSORS";
 
-const Buttons = ({ dispatch, getWinner }) => {
+const Buttons = ({ dispatch }) => {
   return (
     <div className="input-container">
       <button
         onClick={() => {
           dispatch({ type: CHOICE_PAPER });
-          getWinner();
         }}
       >
         <img src={img1} alt="paper" />
@@ -20,7 +19,6 @@ const Buttons = ({ dispatch, getWinner }) => {
       <button
         onClick={() => {
           dispatch({ type: CHOICE_ROCK });
-          getWinner();
         }}
       >
         <img src={img2} alt="rock" />
@@ -28,7 +26,6 @@ const Buttons = ({ dispatch, getWinner }) => {
       <button
         onClick={() => {
           dispatch({ type: CHOICE_SCISSORS });
-          getWinner();
         }}
       >
         <img src={img3} alt="scissors" />

@@ -9,7 +9,7 @@ const findWinner = (choice) => {
   if (choice.user === "paper") {
     if (choice.computer === "paper") {
       return "It's a Tie";
-    } else if (choice.computer === "rock") {
+    } else if (choice.computer === "scissors") {
       return "You Lose";
     } else {
       return "You Win";
@@ -72,7 +72,7 @@ const RockPaperScissors = () => {
       <Buttons dispatch={dispatch} />
       {choice.user != "" && choice.computer != "" && <Result choice={choice} />}
       <History score={score} winner={winner}/>
-      <button className="reset-btn" onClick={handleReset}>Reset Score</button>
+      <button className="reset-btn btn btn-danger" onClick={handleReset}>Reset Score</button>
     </div>
   );
 };

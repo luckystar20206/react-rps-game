@@ -2,11 +2,12 @@ const Result = ({choice}) => {
   return (
     <div className="result-container">
       <div>
-        Your Choice<img src={choice.userImg} alt="" />
+        <img src={choice.userImg} alt="" />
+        <b>Your Choice</b>
       </div>
       <div>
         <img src={choice.computerImg} alt="" />
-        Computer Choice
+        <b>Computer Choice</b>
       </div>
     </div>
   );

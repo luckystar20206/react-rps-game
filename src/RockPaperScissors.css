@@ -2,12 +2,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
   color: white;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .main-container {
+  width: 450px; /* Use a percentage for flexibility */
+  max-width: 100%; /* Set a maximum width */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,12 +17,11 @@ body {
 
 .input-container {
   margin-top: 1rem;
-  width: 450px;
   height: 200px;
-  display: grid;
-  grid-template-columns: repeat(3,auto);  
+  display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
 .input-container > button {
@@ -39,11 +39,11 @@ body {
   border: 3px solid rgb(255, 193, 78);
 }
 
-.input-container > button > img{
+.input-container > button > img {
   width: 50px;
   transition: width 0.5s, height 0.5s;
 }
-.input-container > button:hover > img{
+.input-container > button:hover > img {
   width: 100px;
 }
 
@@ -68,4 +68,53 @@ body {
 
 h1 {
   margin-bottom: 0;
+}
+
+.history {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.result-container > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+  .main-container {
+    width: 250px;
+  }
+  .input-container {
+    margin-top: 1rem;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .input-container > button {
+    border: 1px solid black;
+    width: 70px;
+    height: 70px;
+  }
+
+  .input-container > button > img {
+    width: 35px;
+  }
+  .input-container > button:hover {
+    width: 80px;
+    height: 80px;
+  }
+  .input-container > button:hover > img {
+    width: 50px;
+  }
+  h1 {
+    font-size: 1.5rem !important;
+  }
 }
