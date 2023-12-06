@@ -2,13 +2,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: white !important;
+  background-color: black !important;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .main-container {
-  width: 450px; /* Use a percentage for flexibility */
-  max-width: 100%; /* Set a maximum width */
+  width: 450px; 
+  max-width: 100%; 
   display: flex;
   flex-direction: column;
   justify-content: center;
