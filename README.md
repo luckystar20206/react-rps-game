@@ -17,8 +17,8 @@ Welcome to the React Rock, Paper, Scissors Game! This project allows users to pl
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/react-rock-paper-scissors.git
-   cd react-rock-paper-scissors
+   git clone https://github.com/hemanth110702/react-rps-game.git
+   cd react-rps-game
 
 2. Install dependencies:
    ```bash 
