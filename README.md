@@ -10,7 +10,7 @@
 -   [Getting Started](#getting-started)
 -   [Features](#features)
 -   [Screenshots](#screenshots)
--   [Live Link](#live-site)
+-   [Link](#link)
 
 </details>
 
@@ -81,6 +81,7 @@ Welcome to the React Rock, Paper, Scissors Game! This project allows users to pl
     </tr>
 </table>
 
-## [ 🚀 LIVE SITE](https://r-p-s-react.netlify.app/)
+## Link
+[🚀 Live Page](https://r-p-s-react.netlify.app/)
 
 <p align="right"><a href="#top">⬆️ Back to Top</a></p>
