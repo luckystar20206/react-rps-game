@@ -83,4 +83,4 @@ Welcome to the React Rock, Paper, Scissors Game! This project allows users to pl
 
 ## [LIVE SITE](https://r-p-s-react.netlify.app/)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">Back to Top</a>)</p>
