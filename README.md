@@ -50,7 +50,7 @@ Welcome to the React Rock, Paper, Scissors Game! This project allows users to pl
 - **Responsive Design:** Ensures an optimal gaming experience across various devices.
 
 
-## Screenshot
+## Screenshots
 
 <table>
     <tr>
